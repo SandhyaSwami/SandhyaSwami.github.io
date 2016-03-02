@@ -71,6 +71,7 @@ body {
     text-align: center;
     margin-top: 10px;
     padding-top: 10px;
+    color: rgb(255,255,255);
 }
 
 #firstImageText {
@@ -79,6 +80,7 @@ body {
 
 #firstImageHeader {
     color: rgb(255, 216, 0);
+    font-family: -webkit-body;
 }
 
 .year {
@@ -142,4 +144,28 @@ body {
     padding-top: 5px;
     padding-right: 2px;
     margin-right: 4px;
+}
+#gitIcon {
+    height: 27px;
+}
+#skills{
+    font-weight: bold;
+    font-family: -webkit-body;
+    line-height: 16px;
+    color:rgb(86,79,51);
+}
+#toolsUtilities {
+    color: rgb(255, 216, 0);
+    margin-top: 40px;
+    font-weight: bold;
+    font-family: -webkit-body;
+}
+.prgLangFrameworks{
+    color:rgb(137,120,55);
+}
+.tools{
+    color: rgb(255, 216, 0);
+}
+#reusable{
+    font-family: -webkit-body;
 }
