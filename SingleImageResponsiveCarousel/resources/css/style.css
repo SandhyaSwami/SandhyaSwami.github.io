@@ -1,0 +1,29 @@
+.staplesBuAd-slider {
+    width: 100%;
+    height: 400px;
+}
+
+.staplesBuAd-container {
+    padding: 0;
+}
+
+.carousel-indicators.staplesBuAd-breadCrumb .active {
+    background-color: #0091dd !important;
+}
+
+.carousel-indicators.staplesBuAd-breadCrumb li {
+    background-color: white !important;
+}
+.staplesBuAd-caption-header{
+    width: 243px;
+    font-size: 37px;
+}
+.staplesBuAd-caption-button{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.staplesBuAd-caption-info{
+    font-weight: normal;
+    width: 300px;
+    text-align: left;
+}
