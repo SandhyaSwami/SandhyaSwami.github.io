@@ -2,6 +2,8 @@
 .mainContainer {
     background-image: url('../images/backgroundImage.png');
     background-repeat: repeat-x;
+	/**font-family: 'Lato', sans-serif;**/
+	font-family: 'Josefin Slab', serif;
 }
 
 body {
