@@ -7,15 +7,18 @@
 }
 
 body {
-    background-color: grey;
-    padding: 10px;
+    background-color: rgb(209,209,210);
+    padding: 16px;
 }
 
 .headings.underlineDotted1 {
     color: rgb(192, 90, 90);
     font-weight: bold;
     border-bottom: 3px dotted brown;
-    font-family: -webkit-pictograph;
+    /*font-family: -webkit-pictograph;*/
+    margin-top: 39px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
 }
 
 #underlineDotted2 {
@@ -25,7 +28,8 @@ body {
 .textFormat {
     font-weight: bold;
     padding-bottom: 10px;
-    padding-right: 25px;
+    padding-right: -33px !important;
+    padding-top: 10px;
 }
 
 .tableBorder {
@@ -35,23 +39,33 @@ body {
 
 #firstImage {
     background-color: rgb(199, 144, 137);
-    height: 195px;
-    width: 156px;
+    height: 250px;
+    width: 188px;
     border-radius: 0px 0px 50% 50%;
     text-align: center;
-    margin-top: 10px;
     padding-top: 10px;
+    margin-left: 10px;
     margin-top: 0px;
+}
+
+#ImageTop{
+    border-top: 19px solid rgb(199,144,137);
+    width: 188px;
+    height: 2px;
+    position: relative;
+    margin-top: -16px;
+    margin-left: 25px;
 }
 
 #secondImage {
     background-color: rgb(253, 215, 0);
-    height: 247px;
-    width: 156px;
+    height: 269px;
+    width: 170px;
     border-radius: 40% 40% 40% 40%;
     text-align: center;
     margin-top: 10px;
     padding-top: 10px;
+    margin-left: 10px;
 }
 
 #thiImage {
@@ -60,9 +74,10 @@ body {
     width: 156px;
     border-radius: 40% 40% 40% 40%;
     text-align: center;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     padding-top: 10px;
     margin-top: -34px;
+    margin-left: 10px;
 }
 
 #fourImage {
@@ -74,6 +89,7 @@ body {
     margin-top: 10px;
     padding-top: 10px;
     color: rgb(255,255,255);
+    margin-left: 10px;
 }
 
 #firstImageText {
@@ -81,15 +97,17 @@ body {
 }
 
 #firstImageHeader {
-    color: rgb(255, 216, 0);
-    font-family: -webkit-body;
+    color: rgb(248, 207, 29);
+    /*font-family: -webkit-body;*/
+    margin-top: -54px;
+    font-weight: bold;
 }
 
 .year {
     color: rgb(192, 90, 90);
     display: inline;
     font-weight: bold;
-    padding-left: 269px;
+    padding-left: 248px;
 }
 
 .appleImage {
@@ -99,9 +117,8 @@ body {
 
 .companyContainer {
     border-right: 1px solid grey;
-    padding-bottom: 20px;
+    padding-bottom: 13px;
     border-bottom: 1px solid grey;
-    margin-left: -15px;
 }
 
 .companyProfile {
@@ -149,18 +166,21 @@ body {
 }
 #gitIcon {
     height: 27px;
+    margin-left: -80px;
 }
 #skills{
     font-weight: bold;
-    font-family: -webkit-body;
+    /* font-family: -webkit-body; */
     line-height: 16px;
-    color:rgb(86,79,51);
+    color: rgb(86,79,51);
+    width: 150px;
+    padding-left: 23px;
 }
 #toolsUtilities {
     color: rgb(255, 216, 0);
     margin-top: 40px;
     font-weight: bold;
-    font-family: -webkit-body;
+    /*font-family: -webkit-body;*/
 }
 .prgLangFrameworks{
     color:rgb(137,120,55);
@@ -169,8 +189,62 @@ body {
     color: rgb(255, 216, 0);
 }
 #reusable{
-    font-family: -webkit-body;
+    /*font-family: -webkit-body;*/
 }
 #align{
     padding-left: -8px;
+}
+.bkImage{
+    background-image: url("../images/userIcon1.png");
+    height: 132px;
+    background-position-x: center;
+    width: 132px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 30px;
+    opacity: 0.1;
+}
+.headings {
+    font-weight: bolder;
+    color: rgb(202, 118, 115);
+    margin-bottom: 0px;
+}
+.sectionTwo {
+    margin-top: 12px;
+}
+.borderRt{
+    border-right: 1px solid black;
+    border-width: 2px;
+    opacity: 0.1;
+    margin-left: 56px;
+
+}
+#objDescription{
+    font-weight: bold;
+}
+
+#headerAlign{
+    margin-left: 17px;
+}
+#borderAlign1{
+    border-right: 1px solid grey;
+    padding-bottom: 13px;
+    border-bottom: 1px solid grey;
+    margin-left: -30px;
+}
+#borderAlign2{
+    padding-bottom: 13px;
+    border-bottom: 1px solid grey;
+    margin-left: -30px;
+}
+
+.headingsProject {
+    color: rgb(192, 90, 90);
+    font-weight: bold;
+    border-bottom: 3px dotted brown;
+    /*font-family: -webkit-pictograph;*/
+    margin-top: 39px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    margin-left: 10px;
 }
