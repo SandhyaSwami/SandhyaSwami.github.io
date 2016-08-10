@@ -88,7 +88,7 @@ body {
     text-align: center;
     margin-top: 10px;
     padding-top: 10px;
-    color: rgb(255,255,255);
+    color: rgb(253, 215, 0);
     margin-left: 10px;
 }
 
@@ -107,7 +107,7 @@ body {
     color: rgb(192, 90, 90);
     display: inline;
     font-weight: bold;
-    padding-left: 248px;
+    padding-left: 395px;
 }
 
 .appleImage {
@@ -127,6 +127,7 @@ body {
 }
 .lastSection{
     padding-left: -1px;
+    padding-top: 8px;
 
 }
 .lastHeader{
@@ -247,4 +248,10 @@ body {
     margin-bottom: 15px;
     padding-bottom: 12px;
     margin-left: 10px;
+}
+/*.CaroselColor{*/
+    /*color:white;*/
+/*}*/
+.exp {
+    padding-top: 15px;
 }
