@@ -12,7 +12,7 @@ body {
 }
 
 .headings.underlineDotted1 {
-    color: rgb(192, 90, 90);
+    color: rgb(158, 9, 4);
     font-weight: bold;
     border-bottom: 3px dotted brown;
     /*font-family: -webkit-pictograph;*/
@@ -26,7 +26,9 @@ body {
 }
 
 .textFormat {
-    font-weight: bold;
+    font-weight: bolder;
+    width: 27%;
+    color: black;
     padding-bottom: 10px;
     padding-right: -33px !important;
     padding-top: 10px;
@@ -61,18 +63,26 @@ body {
     background-color: rgb(253, 215, 0);
     height: 269px;
     width: 170px;
-    border-radius: 40% 40% 40% 40%;
+    /*border-radius: 40% 40% 40% 40%;*/
     text-align: center;
     margin-top: 10px;
     padding-top: 10px;
     margin-left: 10px;
+    border-top-left-radius: 80px 90px;
+    border-top-right-radius: 80px 90px;
+    border-bottom-left-radius: 80px 90px;
+    border-bottom-right-radius: 80px 90px;
 }
 
 #thiImage {
     background-color: rgb(79, 80, 123);
     height: 247px;
     width: 156px;
-    border-radius: 40% 40% 40% 40%;
+    /*border-radius: 40% 40% 40% 40%;*/
+    border-top-left-radius: 80px 90px;
+    border-top-right-radius: 80px 90px;
+    border-bottom-left-radius: 80px 90px;
+    border-bottom-right-radius: 80px 90px;
     text-align: center;
     /*margin-top: 10px;*/
     padding-top: 10px;
@@ -144,15 +154,15 @@ body {
     text-align: center;
 }
 .colorToList{
-    color:rgb(253,215,3);
+    color:rgb(253, 143, 3);;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 #colorToUnList{
     color: rgb(94,93,133);
     font-weight: bold;
-    font-size: 17px;
+    font-size: 20px;
 }
 .image1{
     border-radius: 50%;
@@ -181,19 +191,22 @@ body {
     color: rgb(255, 216, 0);
     margin-top: 40px;
     font-weight: bold;
+    padding-left: 10px;
+    padding-right: 15px;
     /*font-family: -webkit-body;*/
 }
 .prgLangFrameworks{
-    color:rgb(137,120,55);
+    color:#009688;
 }
 .tools{
-    color: rgb(255, 216, 0);
+    color: rgb(5, 191, 141);
 }
 #reusable{
     /*font-family: -webkit-body;*/
 }
 #align{
     padding-left: -8px;
+    width: 59%;
 }
 .bkImage{
     background-image: url("../images/userIcon1.png");
@@ -207,7 +220,7 @@ body {
 }
 .headings {
     font-weight: bolder;
-    color: rgb(202, 118, 115);
+    color: rgb(158, 9, 4);
     margin-bottom: 0px;
 }
 .sectionTwo {
@@ -220,15 +233,16 @@ body {
     margin-left: 56px;
 
 }
-#objDescription{
+.objDescription{
     font-weight: bold;
 }
 
 #headerAlign{
     margin-left: 17px;
+    margin-right: 19px;
 }
 #borderAlign1{
-    border-right: 1px solid grey;
+    /*border-right: 1px solid grey;*/
     padding-bottom: 13px;
     border-bottom: 1px solid grey;
     margin-left: -30px;
@@ -240,7 +254,7 @@ body {
 }
 
 .headingsProject {
-    color: rgb(192, 90, 90);
+    color: rgb(158, 9, 4);
     font-weight: bold;
     border-bottom: 3px dotted brown;
     /*font-family: -webkit-pictograph;*/
@@ -249,9 +263,32 @@ body {
     padding-bottom: 12px;
     margin-left: 10px;
 }
-/*.CaroselColor{*/
-    /*color:white;*/
-/*}*/
+.CaroselColor{
+    color: #030eb9;
+}
 .exp {
     padding-top: 15px;
+}
+.college{
+    color: #03A9F4;
+}
+.kleLogo{
+    padding-left: 27px;
+    padding-bottom: 4px;
+}
+.lastCompany{
+    border-right: 0px;
+}
+.education{
+    border-bottom: 1px solid grey;
+}
+.position{
+    color: #03A9F4;
+}
+.res{
+    padding-top: 10px;
+}
+li{
+    color: black;
+    font-weight: bold;
 }
