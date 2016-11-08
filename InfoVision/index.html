@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" ng-app="infovision">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>InfoVision Labs, India</title>
+
+    <meta name="description" content="InfoVision Labs, India">
+    <meta name="author" content="Sandhya">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/circle.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 mainDashboard">
+            <div class="row" ng-controller="dashboardController">
+                <div class="col-md-2 slide-panel" ng-show="isPanelShow">
+                    <p class="companyName">I COMPANY</p>
+                    <ng-include src="'./templates/panel.html'"></ng-include>
+                </div>
+                <div ng-class="isExpand">
+                    <div class="row utilityMenu">
+                        <div class="col-md-12">
+                            <div class="col-md-5">
+                                <i class="glyphicon glyphicon-menu-hamburger hamburger" ng-click="toggleMenu()"></i>
+                                <input type="search" class="form-control searchTextBox" placeholder="Search">
+                                <i class="glyphicon glyphicon-search searchIcon"></i>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-5 utilityMenuSection">
+                                <div class="dropdown createNew">
+                                    <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown"
+                                       role="button" aria-haspopup="true" aria-expanded="false">
+                                        Create New
+                                        <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="dropdown-menu newList" aria-labelledby="dLabel">
+                                        <li class="newItems">New Email</li>
+                                        <li class="newItems">New Chat</li>
+                                        <li class="newItems">New User</li>
+                                        <li class="newItems">New Project</li>
+                                    </ul>
+                                </div>
+                                <a href="#"><span class="badge unreadCount">6</span></a>
+                                <img src="./images/loggedInUserImage.png" alt="logged In User Avatar"
+                                     class="img-circle img-responsive loggedInUser">
+                                <div class="dropdown userProfile">
+                                    <a id="userProfile" data-target="#" href="http://example.com" data-toggle="dropdown"
+                                       role="button" aria-haspopup="true" aria-expanded="false">
+                                        Jonathan Doe
+                                        <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="dropdown-menu newList" aria-labelledby="userProfile">
+                                        <li class="newItems">Change Password</li>
+                                        <li class="newItems">User Settings</li>
+                                        <li class="newItems">Personal Details</li>
+                                        <li class="newItems">User Activities</li>
+                                    </ul>
+                                </div>
+                                <i class="glyphicon glyphicon-indent-left userMoreOptions"></i>
+                            </div>
+                            <ng-include src="'./templates/quickOverviewPanel.html'"></ng-include>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<div class="row quickRow">
+    <div class="col-md-12 dashboardSection">
+        <p class="dashboardText">Dashboard</p>
+        <p class="dashoboardInfo">This is a quick overivew of some features</p>
+        <div class="col-md-4 btn-group quickOverPanel">
+            <button type="button" class="btn btn-primary quickBtn">Dashboard</button>
+            <button type="button" class="btn btn-primary quickBtn"><span class="glyphicon glyphicon-refresh"></span>
+            </button>
+            <button type="button" class="btn btn-primary quickBtn"><span class="glyphicon glyphicon-search"></span>
+            </button>
+            <button type="button" class="btn btn-primary quickBtn"><span class="glyphicon glyphicon-stats"></span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="row totalStats">
+    <div class="col-md-2 statsItem">
+        <span class="glyphicon glyphicon-record statsIcon"></span><span>Today Profit</span>
+        <p class="profitInDollar">$36.45</p>
+        <span class="glyphicon glyphicon-triangle-bottom triagle"></span><span class="statsComparison">26%</span><span
+            class="whichDay">from yesterday</span>
+    </div>
+    <div class="col-md-2 statsItem">
+        <span class="fa fa-calendar-o statsIcon"></span><span>This Week</span>
+        <p class="profitInDollar">$96.25</p>
+        <span class="glyphicon glyphicon-triangle-top triagle green"></span><span
+            class="statsComparison green">26%</span><span class="whichDay">from c</span>
+    </div>
+    <div class="col-md-2 statsItem">
+        <span class="fa fa-shopping-cart statsIcon"></span><span>Total Sales</span>
+        <p class="profitInDollar green">696</p>
+        <span class="glyphicon glyphicon-triangle-top triagle green"></span><span
+            class="statsComparison green">26%</span><span class="whichDay">from last month</span>
+    </div>
+    <div class="col-md-2 statsItem">
+        <span class="fa fa-users statsIcon"></span><span>Visitors</span>
+        <p class="profitInDollar">960</p>
+        <span class="glyphicon glyphicon-triangle-bottom triagle red"></span><span
+            class="statsComparison red">26%</span><span class="whichDay">from yesterday</span>
+    </div>
+    <div class="col-md-2 statsItem">
+        <span class="glyphicon glyphicon-eye-open statsIcon"></span><span>Page View</span>
+        <p class="profitInDollar green">46.230</p>
+        <span class="glyphicon glyphicon-triangle-bottom triagle red"></span><span
+            class="statsComparison red">26%</span><span class="whichDay">from yesterday</span>
+    </div>
+    <div class="col-md-2 statsItem">
+        <span class="glyphicon glyphicon-triangle-top triagle pointer"></span>
+        <span class="glyphicon glyphicon-time statsIcon lastIcon"></span><span>Average Time</span>
+        <p class="profitInDollar red">2:10 <span class="min">min</span></p>
+        <span class="glyphicon glyphicon-triangle-top triagle green"></span><span
+            class="statsComparison green">26%</span><span class="whichDay">from InfoVision</span>
+    </div>
+</div>
+<ng-include src="'./templates/generalStatistics.html'"></ng-include>

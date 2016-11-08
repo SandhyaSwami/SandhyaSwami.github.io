@@ -1,0 +1,582 @@
+.slide-panel {
+    background-color: #3C464D;
+    padding: 0px;
+}
+
+.dashboard {
+    background-color: #F4F5F6;
+}
+
+.mainDashboard {
+    background: #F4F5F6;
+}
+
+.companyName {
+    background-color: #3688D9;
+    color: white;
+    font-size: 24px;
+    padding: 6px;
+    margin: 0px;
+    padding-left: 20px;
+    height: 60px;
+}
+
+.hamburger {
+    padding: 11px;
+    border-right: 1px solid gray;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 0px;
+    height: 59px;
+    font-weight: bold;
+}
+
+.utilityMenu {
+    background-color: #3F9DFC;
+    height: 60px;
+}
+
+.searchForm {
+    display: inline;
+    padding-left: 15px;
+}
+
+.searchIcon {
+    position: relative;
+    left: -10%;
+    top: 3px;
+}
+
+.searchTextBox {
+    width: 67% !important;
+    border-radius: 18px;
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 15px;
+    color: #3F9DFC;
+}
+
+.createNew {
+    background-color: white;
+    width: 120px;
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    border-radius: 18px;
+    display: inline-block;
+}
+
+#dLabel {
+    color: black;
+}
+
+.newList {
+    padding: 10px;
+}
+
+.newItems {
+    padding: 5px;
+    border-bottom: 1px solid #3f9dfc;
+    cursor: pointer;
+}
+
+.unreadCount {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding-top: 12px;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #20558F;
+}
+
+.loggedInUser {
+    width: 10%;
+    display: inline;
+    padding-left: 10px;
+}
+
+.userProfile {
+    width: 120px;
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#userProfile {
+    color: white;
+}
+
+.userMoreOptions {
+    height: 50px;
+}
+
+.userMoreOptions {
+    font-size: 20px;
+    padding-left: 25px;
+    border-left: 1px solid gray;
+    height: 58px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.main {
+    color: #A1A0B3;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    color: #A1A0B3;
+    padding-left: 20px;
+}
+
+.menuItemIcon {
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+
+.menuItemText {
+    padding-right: 30px;
+}
+
+.menuItemBadge {
+    border-radius: 30%;
+}
+
+.menu li {
+    cursor: pointer;
+}
+
+.lastListItem {
+    border-bottom: 1px solid #4f4f4f;
+    margin-right: 20px;
+}
+
+.customizableButton {
+    width: 35px;
+    height: 19px;
+    padding: 5px;
+    padding-top: 0px;
+}
+
+.dashboardSection {
+    background-color: white;
+    padding: 30px;
+}
+
+.dashboardText {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.dashoboardInfo {
+    color: grey;
+    display: inline;
+}
+
+.dashboardFeatures {
+}
+
+.menuItemDropdown {
+    padding: 0px;
+    width: 165px;
+}
+
+.menuItemDropdownCaret {
+    margin-left: 50px;
+}
+
+.uiElements {
+    color: #A1A0B3;
+}
+
+.mailbox {
+    margin-left: 15px;
+}
+
+.uiElements.menuItemDropdown a:hover,
+.uiElements.menuItemDropdown a:active,
+.uiElements.menuItemDropdown a:focus {
+    color: #A1A0B3;
+}
+
+.extras {
+    margin-left: 15px;
+}
+
+li.newItems:hover {
+    color: white;
+    background-color: #009EF3;
+}
+
+.proplan {
+    color: #dcd7d7;
+    display: inline;
+    margin-left: 20px;
+}
+
+.upgrade {
+    color: #A1A0B3;
+    display: inline;
+    float: right;
+    margin-right: 20px;
+}
+
+.progress {
+    height: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #242A2E;
+}
+
+.capacity {
+    color: #A1A0B3;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.progress-bar {
+    background-color: #3190FF;
+}
+
+.quickOverPanel {
+    background-color: white;
+    display: inline;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quickRow {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.quickBtn {
+    background-color: white;
+    color: gray;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.totalStats {
+    background-color: white;
+    margin: 10px;
+}
+
+.statsIcon {
+    padding-right: 10px;
+    color: #8D8D8A;
+    padding-left: 20px;
+}
+
+.profitInDollar {
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+.triagle {
+    color: red;
+    font-size: 9px;
+}
+
+.statsComparison {
+    color: red;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.whichDay {
+    color: #8D8D8A;
+}
+
+.statsItem {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 7px;
+}
+
+.caption {
+    font-size: 16px;
+}
+
+.graphs {
+    margin-right: 50px;
+}
+
+.generalStats {
+    background-color: white;
+    margin: 10px;
+}
+
+.genStatsContainer {
+    padding: 20px;
+}
+
+.twitter {
+    background-color: #009EF3;
+    width: 50%;
+    color: #ebebeb;
+    padding: 20px;
+    border-left: 10px solid;
+}
+
+.facebook {
+    background-color: #3C5894;
+    width: 50%;
+    color: #ebebeb;
+    padding: 20px;
+    border-right: 10px solid #3C5894;
+    border-left: 10px solid;
+}
+
+.twit {
+    font-size: 24px;
+    font-weight: 100;
+    height: 102px;
+}
+
+.twitDate {
+    color: #92D4F9;
+}
+
+.twitterIcon {
+    font-size: 30px;
+}
+
+.retweet {
+    padding-left: 50px;
+    padding-right: 5px;
+}
+
+.star {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.genHead {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.socialInfo {
+    padding: 0px;
+}
+
+.browserList {
+    list-style-type: none;
+}
+
+.browserList > li {
+    color: gray;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 10px;
+}
+
+.browser {
+    background-color: white;
+    padding: 20px;
+    margin-right: 10px;
+    width: 24%;
+}
+
+.browser > ul {
+    padding: 0px;
+    padding-top: 20px;
+}
+
+.browserBtn {
+    float: right;
+}
+
+.browser > ul > li {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.lastOrders {
+    background-color: white;
+    padding: 20px;
+    overflow: auto;
+    margin-right: 10px;
+    width: 49%;
+}
+
+.trash {
+    border-bottom: none !important;
+}
+
+.header {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.tools {
+    margin-bottom: 30px;
+}
+
+input[type="checkbox"] {
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    padding: 10px;
+}
+
+.hCells {
+    padding-bottom: 30px !important;
+}
+
+.lastOrders .table > tbody > tr > td {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.browserStatistics {
+    margin: 10px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.mailList {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.mailList ul li {
+    padding: 0px;
+}
+
+.mailList .name {
+    padding-left: 5px;
+    color: gray;
+}
+
+.mailList .date {
+    float: right;
+    color: rgba(115, 111, 111, 0.6);
+    font-size: 10px;
+}
+
+.mailList .subject {
+    padding-left: 40px;
+    color: gray;
+}
+
+.mailList .mail {
+    border-bottom: 1px solid #EBEBEB;
+    padding-top: 15px;
+}
+
+.inbox {
+    background-color: white;
+    padding: 20px;
+}
+
+.toolsContainer {
+    display: inline;
+    float: right;
+}
+
+.toolIcons {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.projectsStats {
+    margin-right: 10px;
+    width: 49%;
+}
+
+.teammates {
+    background: #46AE99;
+}
+
+.col-md-3.inbox.teammates > ul > li > span.name {
+    color: white;
+}
+
+.col-md-3.inbox.teammates ul.mailList li.mail p.subject {
+    color: #C2E1E1;
+}
+
+.teamMateHeader {
+    color: white;
+}
+
+.sea {
+    width: 100%;
+}
+
+.read {
+    color: #5E9CF7;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 30px;
+}
+
+.statement {
+    padding-top: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+#sea .name {
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+
+#sea .subject {
+    padding-left: 45px;
+}
+
+.copyright {
+    background-color: #ECECEE;
+    padding: 10px;
+    color: #707172;
+    margin: 10px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.min {
+    font-size: 16px;
+    color: gray;
+}
+
+.placeholder {
+    height: 943px;
+}
+
+.pointer {
+    position: relative;
+    top: -36px;
+    left: 83%;
+    color: #bdb9b9;
+    font-size: 21px;
+}
+.lastIcon{
+    padding-left: 0px;
+}
